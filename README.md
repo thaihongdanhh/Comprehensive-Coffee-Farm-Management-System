@@ -73,14 +73,6 @@ mobile/
 └── package.json
 ```
 
-## API Configuration
-
-The app connects to the backend API. Update the API URL in `src/services/api.ts`:
-
-```typescript
-const API_URL = 'http://sarm.n2nai.io:5100/api/v1';
-```
-
 ## Mock Mode
 
 The app works in mock mode when the backend is running without Firebase. Face recognition will return simulated results.
